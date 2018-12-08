@@ -14,3 +14,83 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+header {
+  display: grid;
+
+  height: 30vh;
+
+  border: 2px solid black;
+  background-color: rgb(142, 170, 33);
+
+  align-items: center;
+}
+
+header p {
+  display: grid;
+
+  text-align: center;
+
+  font-size: 300%;
+}
+
+.why {
+  display: grid;
+
+  height: 20vh;
+
+  text-align: center;
+
+  border: 2px solid red;
+  background-color: rgb(75, 162, 173);
+
+  font-size: 300%;
+
+  align-items: center;
+
+}
+
+.titan_pic {
+  display: grid;
+
+  height: 60vh;
+
+  text-align: center;
+
+  border: 2px solid yellow;
+  background-color: rgb(72, 152, 82);
+
+  font-size: 300%;
+
+  align-items: center;
+}
+
+.intro_section {
+  display: grid;
+
+  height: 30vh;
+
+  text-align: center;
+
+  border: 2px solid black;
+  background-color: rgb(142, 170, 33);
+
+  font-size: 300%;
+
+  align-items: center;
+}
+
+.how_section {
+  display: grid;
+
+  height: 30vh;
+
+  text-align: center;
+
+  border: 2px solid red;
+  background-color: rgb(71, 84, 255);
+
+  font-size: 300%;
+
+  align-items: center;
+}
