@@ -8,7 +8,7 @@
 @import "sections/more-info.css";
 @import "footer.css";
 @import "fonts.css";
-
+@import url('https://fonts.googleapis.com/css?family=Prosto+One&subset=cyrillic');
 
 
 
@@ -18,7 +18,7 @@
 }
 
 p {
-  font-family: Magistral-Cond-Regular;
+  font-family: 'Prosto One', cursive;
 }
 
 
