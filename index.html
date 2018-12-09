@@ -34,9 +34,11 @@
     <h2 class="reason_1_title">Скорость</h2>
     <p class="reason_1_description">Никаких месяцев. Всего лишь две недели постоперационного отдыха на нашей станции. </p>
     <div class="reason_2_logo"></div>
-      <h2 class="reason_2_title">Многослойность</h2>
-      <p class="reason_2_description">Наш терапевтический курс составлен с применением последних медицинских практик. Мы не оставляем места ошибкам и неудовлетворенности.</p>
-    </div>
+    <h2 class="reason_2_title">Многослойность</h2>
+    <p class="reason_2_description">Наш терапевтический курс составлен с применением последних медицинских практик. Мы не оставляем места ошибкам и неудовлетворенности.</p>
+    <div class="reason_3_logo"></div>
+    <h2 class="reason_3_title">Многослойность</h2>
+    <p class="reason_3_description">Наш терапевтический курс составлен с применением последних медицинских практик. Мы не оставляем места ошибкам и неудовлетворенности.</p>
   </div>
   <div class="feedback_section">
     <h1 class="feedback_title">Отзывы</h1>
@@ -109,6 +111,14 @@
 
   var rellax = new Rellax('.how_section', {
     speed: 2,
+    center: true,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+  });
+  var rellax = new Rellax('.feedback_section', {
+    speed: 0,
     center: true,
     wrapper: null,
     round: true,

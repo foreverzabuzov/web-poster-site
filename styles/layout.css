@@ -69,7 +69,6 @@ header p {
 
   text-align: center;
 
-  border: 1px solid white;
   background-image: url(..//images/titan.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -117,8 +116,9 @@ header p {
 
   color: white;
 
-  font-size: 100%;
+  font-size: 90%;
 
+  grid-column-gap: 42px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 20% 10% 70%;
   align-items: center;
@@ -132,6 +132,8 @@ header p {
 .reason_1_title {
   margin-top: 20px;
 
+  text-align: left;
+
   grid-row: 2/3;
   grid-column: 1;
 }
@@ -144,14 +146,39 @@ header p {
   grid-column: 2;
 }
 .reason_1_description {
+  width: 190px;
+  margin-top: -32px;
+
+  text-align: left;
+
   grid-row: 3/3;
   grid-column: 1;
 }
 
 
+
 .reason_2_description {
+  width: 190px;
+
+  text-align: left;
+
   grid-row: 3/3;
   grid-column: 2;
+}
+
+.reason_3_title{
+  margin-top: 20px;
+
+  grid-row: 2/3;
+  grid-column: 3;
+}
+.reason_3_description {
+  width: 190px;
+
+  text-align: left;
+
+  grid-row: 3/3;
+  grid-column: 3;
 }
 
 .reason_1_logo {
@@ -165,7 +192,7 @@ header p {
 
   grid-column: 1/2;
   grid-row: 1/2;
-  justify-self: center;
+  justify-self: left;
 }
 
 .reason_2_logo {
@@ -182,20 +209,36 @@ header p {
   grid-row: 1/2;
 }
 
+.reason_3_logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+
+  background-image: url(..//images/layerness.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  justify-self: center;
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
 .feedback_section {
   display: grid;
 
-  height: 70vh;
+  height: 400px;
+  margin-right: 20px;
+  margin-left: 20px;
 
   text-align: center;
 
   color: white;
-  border: 1px solid white;
   background-color: #040048;
 
   font-family: 'Prosto One', cursive;
   font-size: 90%;
 
+  grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 30% 70%;
   align-items: center;
@@ -206,7 +249,7 @@ header p {
 }
 
 .feedback_section h4 {
-  width: 30vh;
+  width: 130px;
   margin-top: 2vh;
 
   text-align: left;
@@ -318,10 +361,9 @@ header p {
 
   text-align: center;
 
-  border: 1px solid white;
   background-color: #040048;
 
-  font-size: 150%;
+  font-size: 90%;
 
   justify-content: center;
   align-items: center;
