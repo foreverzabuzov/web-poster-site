@@ -21,6 +21,9 @@ a, p, h1 {
   font-family: 'Prosto One', cursive;
 }
 
+body {
+  background-color: #040048;
+}
 
 header {
   display: flex;
@@ -46,12 +49,12 @@ header p {
 .why {
   display: grid;
 
-  height: 20vh;
+  height: 60vh;
 
   text-align: center;
 
-  border: 2px solid red;
-  background-color: rgb(75, 162, 173);
+  color: white;
+  background-color: #040048;
 
   font-size: 300%;
 
@@ -59,14 +62,14 @@ header p {
 
 }
 
-.titan_pic {
+#titan_pic {
   display: grid;
 
   height: 60vh;
 
   text-align: center;
 
-  border: 2px solid yellow;
+  border: 1px solid white;
   background-image: url(..//images/titan.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -77,6 +80,8 @@ header p {
   align-items: center;
 }
 
+
+
 .intro_section {
   display: grid;
 
@@ -84,8 +89,8 @@ header p {
 
   text-align: center;
 
-  border: 2px solid black;
-  background-color: rgb(142, 170, 33);
+  color: white;
+  background-color: #040048;
 
   font-size: 300%;
 
