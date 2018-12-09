@@ -128,9 +128,25 @@ header p {
   grid-column: 2/3;
 }
 
+.review1, .review2, .review3 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
 .review1 {
   grid-column: 1/2;
   grid-row: 2;
+}
+
+.review1_pic {
+  width:50px;
+  height:50px;
+
+  border: 2px solid white;
+  border-radius: 50%;
 }
 
 .review2 {
