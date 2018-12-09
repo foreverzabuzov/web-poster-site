@@ -23,7 +23,7 @@ a, p, h1 {
 
 
 header {
-  display: block;
+  display: flex;
 
   height: 30vh;
 
@@ -31,6 +31,7 @@ header {
 
   font-family: "Magistral-Cond-Regular";
 
+  justify-content: center;
   align-items: center;
 }
 
@@ -124,6 +125,10 @@ header p {
   align-items: center;
 }
 
+.feedback_section h3 {
+  margin-bottom: 2vh;
+}
+
 .feedback_title {
   grid-column: 2/3;
 }
@@ -136,17 +141,20 @@ header p {
   align-items: center;
 }
 
-.review1 {
-  grid-column: 1/2;
-  grid-row: 2;
-}
-
-.review1_pic {
+.review1_pic, .review2_pic, .review3_pic {
   width:50px;
   height:50px;
+  margin-bottom: 3vh;
 
   border: 2px solid white;
   border-radius: 50%;
+}
+
+
+
+.review1 {
+  grid-column: 1/2;
+  grid-row: 2;
 }
 
 .review2 {
@@ -207,8 +215,9 @@ header p {
   margin: 1vw;
 }
 
-.brain_cloud {
-  z-index: 5;
+.brain-cloud {
+  width: 50vh;
+  height: 50vh;
 }
 
 

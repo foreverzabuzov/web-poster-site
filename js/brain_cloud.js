@@ -9,4 +9,6 @@ var words = [
   /* ... */
 ];
 
-$('.brain-cloud').jQCloud(words);
+$(document).ready(function() {
+  $('.brain-cloud').jQCloud(words, {height: 200, width: 300});
+});
