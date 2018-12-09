@@ -17,7 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a, p, h1 {
+a, p, h1, h2 {
   font-family: 'Prosto One', cursive;
 }
 
@@ -105,17 +105,48 @@ header p {
 .how_section {
   display: grid;
 
-  height: 30vh;
+  height: 70vh;
+  margin-right: 5vw;
+  margin-left: 5vw;
 
   text-align: center;
 
   color: white;
-  border: 1px solid white;
-  background-color: #040048;
 
-  font-size: 300%;
+  font-size: 100%;
 
+  grid-column-gap: 10vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   align-items: center;
+
+}
+
+.how_section h2 {
+  margin-bottom: 5vh;
+
+  font-size: 150%;
+}
+
+.reason_1 {
+  display: flex;
+  flex-direction: column;
+
+  height: 40vh;
+
+  text-align: left;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.reason_1_logo {
+  width: 100px;
+  height: 100px;
+
+  background-image: url(..//images/arrow.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .feedback_section {
