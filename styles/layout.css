@@ -107,6 +107,33 @@ header p {
   align-items: center;
 }
 
+.stars1 {
+  width: 110px;
+  height: 40px;
+
+  background-image: url(..//images/4stars.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.stars2 {
+  width: 110px;
+  height: 40px;
+
+  background-image: url(..//images/5stars.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.stars3 {
+  width: 110px;
+  height: 40px;
+
+  background-image: url(..//images/5stars.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .feedback_section {
   display: grid;
 
@@ -142,11 +169,11 @@ header p {
 }
 
 .review1_pic, .review2_pic, .review3_pic {
-  width:50px;
-  height:50px;
+  width:60px;
+  height:60px;
   margin-bottom: 3vh;
 
-  border: 2px solid white;
+  border: 3px solid white;
   border-radius: 50%;
 }
 
