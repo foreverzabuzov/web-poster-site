@@ -99,12 +99,67 @@ header p {
 
   text-align: center;
 
-  border: 2px solid red;
-  background-color: rgb(71, 84, 255);
+  color: white;
+  border: 1px solid white;
+  background-color: #040048;
 
   font-size: 300%;
 
   align-items: center;
+}
+
+.feedback_section {
+  display: grid;
+
+  height: 70vh;
+
+  text-align: center;
+
+  color: white;
+  border: 1px solid white;
+  background-color: #040048;
+
+  font-family: 'Prosto One', cursive;
+  font-size: 90%;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 30% 70%;
+  align-items: center;
+}
+
+.feedback_section h3 {
+  margin-bottom: 2vh;
+}
+
+.feedback_section h4 {
+  width: 30vh;
+  margin-top: 2vh;
+
+  text-align: left;
+}
+
+.feedback_title {
+  font-size: 230%;
+
+  grid-column: 2/3;
+}
+
+.review1, .review2, .review3 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+.review1_pic, .review2_pic, .review3_pic {
+  width:60px;
+  height:60px;
+  margin-bottom: 3vh;
+
+  border: 3px solid white;
+  border-radius: 50%;
 }
 
 .stars1 {
@@ -134,54 +189,27 @@ header p {
   background-size: contain;
 }
 
-.feedback_section {
-  display: grid;
-
-  height: 50vh;
-
-  text-align: center;
-
-  color: white;
-  border: 2px solid black;
-  background-color: #040048;
-
-  font-size: 100%;
-
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 30% 70%;
-  align-items: center;
-}
-
-.feedback_section h3 {
-  margin-bottom: 2vh;
-}
-
-.feedback_title {
-  grid-column: 2/3;
-}
-
-.review1, .review2, .review3 {
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-  align-items: center;
-}
-
-.review1_pic, .review2_pic, .review3_pic {
-  width:60px;
-  height:60px;
-  margin-bottom: 3vh;
-
-  border: 3px solid white;
-  border-radius: 50%;
-}
-
-
-
 .review1 {
   grid-column: 1/2;
   grid-row: 2;
+}
+
+.review1_pic {
+  background-image: url(..//images/zhaba1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.review2_pic {
+  background-image: url(..//images/zhaba2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.review3_pic {
+  background-image: url(..//images/zhaba3.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .review2 {
@@ -201,7 +229,6 @@ header p {
 
   text-align: center;
 
-  border: 2px solid red;
   background-color: #040048;
 
   font-size: 300%;
@@ -217,7 +244,7 @@ header p {
 
   text-align: center;
 
-  border: 2px solid black;
+  border: 1px solid white;
   background-color: #040048;
 
   font-size: 150%;
@@ -261,7 +288,7 @@ header p {
   border-radius: 6px;
   background: transparent;
 
-  font-size: 16px;
+  font-size: 32px;
 
   align-items: center;
   justify-content: center;
