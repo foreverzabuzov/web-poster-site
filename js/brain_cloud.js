@@ -9,4 +9,4 @@ var words = [
   /* ... */
 ];
 
-$('#brain-cloud').jQCloud(words);
+$('.brain-cloud').jQCloud(words);

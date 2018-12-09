@@ -17,7 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-p {
+a, p, h1 {
   font-family: 'Prosto One', cursive;
 }
 
@@ -109,16 +109,38 @@ header p {
 .feedback_section {
   display: grid;
 
-  height: 30vh;
+  height: 50vh;
 
   text-align: center;
 
+  color: white;
   border: 2px solid black;
-  background-color: rgb(142, 170, 33);
+  background-color: #040048;
 
-  font-size: 300%;
+  font-size: 100%;
 
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 30% 70%;
   align-items: center;
+}
+
+.feedback_title {
+  grid-column: 2/3;
+}
+
+.review1 {
+  grid-column: 1/2;
+  grid-row: 2;
+}
+
+.review2 {
+  grid-row: 2;
+  grid-column: 2/3;
+}
+
+.review3 {
+  grid-row: 2;
+  grid-column: 3;
 }
 
 .wanna_try_section {
@@ -129,10 +151,11 @@ header p {
   text-align: center;
 
   border: 2px solid red;
-  background-color: rgb(186, 79, 190);
+  background-color: #040048;
 
   font-size: 300%;
 
+  justify-content: center;
   align-items: center;
 }
 
@@ -169,5 +192,25 @@ header p {
 }
 
 .brain_cloud {
-  z-index: 1300;
+  z-index: 5;
+}
+
+
+.wanna_try_button {
+  display: flex;
+
+  width: 30vw;
+  height: 10vh;
+
+  text-decoration: none;
+
+  color: white;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  background: transparent;
+
+  font-size: 16px;
+
+  align-items: center;
+  justify-content: center;
 }
