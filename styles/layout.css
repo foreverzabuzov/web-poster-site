@@ -28,7 +28,7 @@ body {
 header {
   display: flex;
 
-  height: 120vh;
+  height: 80vh;
 
   color: white;
 
@@ -101,7 +101,7 @@ header p {
 .titan_pic {
   display: grid;
 
-  height: 80vh;
+  height: 90vh;
   margin-bottom: 10vh;
 
   text-align: center;
@@ -443,4 +443,10 @@ header p {
 
   align-items: center;
   justify-content: center;
+}
+
+@media (min-width=1024px) {
+  .titan_pic {
+    background-size: cover;
+  }
 }

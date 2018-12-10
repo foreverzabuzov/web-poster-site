@@ -43,7 +43,7 @@ var rellax = new Rellax('.intro_section', {
 });
 
 var rellax = new Rellax('.how_section', {
-  speed: 3,
+  speed: 5,
   center: true,
   wrapper: null,
   round: true,
