@@ -17,7 +17,7 @@ var rellax = new Rellax('.because', {
 });
 
 var rellax = new Rellax('.titan_pic', {
-  speed: -2,
+  speed: 2,
   center: true,
   wrapper: null,
   round: true,
