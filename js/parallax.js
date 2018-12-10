@@ -26,7 +26,7 @@ var rellax = new Rellax('.titan_pic', {
 });
 
 var rellax = new Rellax('.why', {
-  speed: 10,
+  speed: 7,
   center: true,
   wrapper: null,
   round: true,
@@ -34,7 +34,7 @@ var rellax = new Rellax('.why', {
   horizontal: false
 });
 var rellax = new Rellax('.intro_section', {
-  speed: 1,
+  speed: -2,
   center: true,
   wrapper: null,
   round: true,

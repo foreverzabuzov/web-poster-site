@@ -109,9 +109,7 @@ header p {
   background-image: url(..//images/titan.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-
-  font-size: 300%;
+  background-size: 130%;
 
   align-items: center;
 }
@@ -122,6 +120,7 @@ header p {
   display: grid;
 
   height: 600px;
+  margin-top: -50px;
   margin-right: 10vw;
   margin-left: 10vw;
 
@@ -432,7 +431,6 @@ header p {
 
   width: 30vw;
   height: 10vh;
-  margin-top: 10vh;
 
   text-decoration: none;
 
