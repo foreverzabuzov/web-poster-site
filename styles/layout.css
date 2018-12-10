@@ -28,11 +28,11 @@ body {
 header {
   display: flex;
 
-  height: 30vh;
+  height: 120vh;
 
-  border: 2px solid black;
+  color: white;
 
-  font-family: "Magistral-Cond-Regular";
+  font-family: 'Prosto One', cursive;
 
   justify-content: center;
   align-items: center;
@@ -44,6 +44,20 @@ header p {
   text-align: center;
 
   font-size: 300%;
+}
+
+.brain-cloud {
+  display: flex;
+
+  height: 110vh;
+
+  color: white;
+
+  font-family: 'Prosto One', cursive;
+  font-size: 180%;
+
+  justify-content: center;
+  align-items: center;
 }
 
 .why {

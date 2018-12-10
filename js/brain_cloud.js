@@ -1,14 +1,21 @@
 var words = [
-  {text: "Lorem", weight: 13},
-  {text: "Ipsum", weight: 10.5},
-  {text: "Dolor", weight: 9.4},
-  {text: "Sit", weight: 8},
-  {text: "Amet", weight: 6.2},
-  {text: "Consectetur", weight: 5},
-  {text: "Adipiscing", weight: 5},
-  /* ... */
+  {text: "ступор", weight: 13},
+  {text: "страх", weight: 10.5},
+  {text: "боль", weight: 9.4},
+  {text: "грусть", weight: 8},
+  {text: "сил нет", weight: 6.2},
+  {text: "время летит", weight: 15},
+  {text: "когда в гроб?", weight: 4},
+  {text: "бессмысленность", weight: 7},
+  {text: "впечатлений нет", weight: 7},
+  {text: "апатия", weight: 7},
+  {text: "усталость", weight: 7},
+  {text: "заброшенность", weight: 7},
+
 ];
 
 $(document).ready(function() {
-  $('.brain-cloud').jQCloud(words, {height: 200, width: 300});
+  $('.brain-cloud').jQCloud(words,{height: 1200, width: 300,
+  shape: 'rectangular'
+});
 });
