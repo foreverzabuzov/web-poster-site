@@ -63,21 +63,42 @@ header p {
 .why {
   display: grid;
 
-  height: 60vh;
+  height: 90vh;
+  margin-right: 10vw;
+  margin-left: 10vw;
 
   text-align: center;
+  text-align: left;
 
   color: white;
-  background-color: #040048;
 
-  font-size: 300%;
+  font-size: 250%;
 
-  align-items: center;
-
-
+  align-items: center;;
 }
 
-#titan_pic {
+.because {
+  display: grid;
+
+  height: 60vh;
+  margin-right: 10vw;
+  margin-left: 10vw;
+
+  text-align: center;
+  text-align: left;
+
+  color: white;
+
+  font-size: 150%;
+
+  align-items: center;
+}
+
+.because h1 {
+  font-size: 150%;
+}
+
+.titan_pic {
   display: grid;
 
   height: 80vh;
@@ -162,7 +183,6 @@ header p {
 }
 .reason_1_description {
   width: 190px;
-  margin-top: -32px;
 
   text-align: left;
 
@@ -201,7 +221,7 @@ header p {
   height: 100px;
   margin-bottom: 20px;
 
-  background-image: url(..//images/arrow.png);
+  background-image: url(..//images/layerness.png);
   background-repeat: no-repeat;
   background-size: cover;
 

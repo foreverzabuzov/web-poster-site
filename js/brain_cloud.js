@@ -15,7 +15,7 @@ var words = [
 ];
 
 $(document).ready(function() {
-  $('.brain-cloud').jQCloud(words,{height: 1200, width: 300,
-  shape: 'rectangular'
+  $('.brain-cloud').jQCloud(words,{height: 500, width: 700,
+  shape: 'circular'
 });
 });

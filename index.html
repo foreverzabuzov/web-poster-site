@@ -9,18 +9,22 @@
   <script src="js/jqcloud.min.js"></script>
   <script src="js/brain_cloud.js"></script>
   <script src="js/rellax.min.js"></script>
+  <script src="js/parallax.js">
+  </script>
 </head>
-<!-- <body class="parallax" data-parallax="scroll" data-image-src="/images/background.png"> -->
 <body>
   <header>
     <div class="brain-cloud">
     </div>
   </header>
   <div class="why">
-    <p>стоп.</p>
-    <p>остановитесь.</p>
+    <h1>когда все это кончится?</h1>
   </div>
-  <div id="titan_pic" class="rellax" data-rellax-speed="7"></div>
+  <div class="because">
+    <h1>скоро.</h1>
+    <h1>если отправитесь в клинику...</h1>
+  </div>
+  <div class="titan_pic" data-rellax-speed="7"></div>
   <div class="intro_section" data-rellax-zindex="3">
     <h1>И снова здравствуйте. </h1>
 
@@ -32,8 +36,8 @@
   </div>
   <div class="how_section">
     <div class="reason_1_logo"></div>
-    <h2 class="reason_1_title">Скорость</h2>
-    <p class="reason_1_description">Никаких месяцев. Всего лишь две недели постоперационного отдыха на нашей станции. </p>
+    <h2 class="reason_1_title">Многослойность</h2>
+    <p class="reason_1_description">Наш терапевтический курс составлен с применением последних медицинских практик. Мы не оставляем места ошибкам и неудовлетворенности. </p>
     <div class="reason_2_logo"></div>
     <h2 class="reason_2_title">Многослойность</h2>
     <p class="reason_2_description">Наш терапевтический курс составлен с применением последних медицинских практик. Мы не оставляем места ошибкам и неудовлетворенности.</p>
@@ -68,23 +72,8 @@
     </div>
   </div>
 
-<!-- Parallax testing -->
-<!-- </div>
-  <div class="rellax">
-  I’m that default chill speed of "-2"
-  </div>
-  <div class="rellax" data-rellax-speed="7">
-  I’m super fast!!
-  </div>
-  <div class="rellax" data-rellax-speed="-4">
-  I’m extra slow and smooth
-  </div>
-
-  <script src="rellax.min.js"></script>
-  <script>
-// Also can pass in optional settings block -->
 <script>
-  var rellax = new Rellax('.rellax', {
+  var rellax = new Rellax('.titan_pic', {
     speed: -2,
     center: true,
     wrapper: null,
@@ -94,7 +83,7 @@
   });
 
   var rellax = new Rellax('.why', {
-    speed: -2,
+    speed: 1,
     center: true,
     wrapper: null,
     round: true,
