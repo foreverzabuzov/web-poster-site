@@ -287,8 +287,8 @@ header p {
 }
 
 .feedback_section h4 {
-  width: 130px;
-  margin-top: 2vh;
+  width: 140px;
+  margin-top: 5vh;
 
   text-align: left;
 }
@@ -381,21 +381,24 @@ header p {
   display: grid;
 
   height: 50vh;
+  margin-top: 20vh;
 
   text-align: center;
 
-  background-color: #040048;
+  background-image: url(http://i.huffpost.com/gen/1429017/images/o-TITAN-LAKES-facebook.jpg);
+  background-size: cover;
 
   font-size: 300%;
 
   justify-content: center;
   align-items: center;
+
 }
 
-.footer {
+footer {
   display: flex;
 
-  height: 10vh;
+  height: 20vh;
 
   text-align: center;
 
@@ -405,10 +408,9 @@ header p {
 
   justify-content: center;
   align-items: center;
-  align-items: center;
 }
 
-.footer ul{
+/* .footer ul{
   display: flex;
 
   color: white;
@@ -421,7 +423,7 @@ header p {
 
 .footer ul li {
   margin: 1vw;
-}
+} */
 
 .brain-cloud {
   width: 50vh;
@@ -446,10 +448,21 @@ header p {
 
   align-items: center;
   justify-content: center;
+  align-content: center:
 }
 
 @media (min-width=1024px) {
   .titan_pic {
     background-size: cover;
   }
+}
+
+.logo {
+  display: flex;
+
+justify-content: center;
+}
+
+.logo2 {
+  width: 30%;
 }

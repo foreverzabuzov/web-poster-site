@@ -11,6 +11,9 @@
   <script src="js/rellax.min.js"></script>
   <script src="js/parallax.js">
   </script>
+  <script src="js/parallax.min.js">
+  </script>
+
 </head>
 <body>
   <header>
@@ -66,9 +69,10 @@
       <h4>Раньше я часто играл в VR-игры, потому что больше ничего не хотелось. Теперь же читаю книги. Спасибо!</h4>
     </div>
   </div>
-  <div class="wanna_try_section">
-    <div class="wanna_try_button">
-      <a>хочу</a>
+    <div class="wanna_try_section">
+      <div class="wanna_try_button">
+        <a>хочу</a>
+      </div>
     </div>
   </div>
 
@@ -115,9 +119,21 @@
     vertical: true,
     horizontal: false
   });
+  var rellax = new Rellax('.wanna_try_section', {
+    speed: 4,
+    center: true,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+  });
+
+  var scene = document.getElementById('scene');
+  var parallaxInstance = new Parallax(scene);
+
 </script>
 </div>
-  <footer>
+  <!-- <footer>
     <div class="footer">
       <ul>
         <li>кто</li>
@@ -126,6 +142,12 @@
         <li>связь</li>
         <li>помощь</li>
       </ul>
+    </div>
+  </footer> -->
+
+  <footer>
+    <div class="">
+      <img src="images/logo.png" class="logo2">
     </div>
   </footer>
 </body>
