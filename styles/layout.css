@@ -58,9 +58,9 @@ header {
   align-items: center;
 }
 
-.arrow_down {
+#arrow_down {
   position: absolute;
-  bottom: 2.5em;
+  bottom: 30px;
 
   width: 73px;
   height: 55px;
@@ -71,7 +71,7 @@ header {
   background-size: contain;
 }
 
-.arrow_down:hover {
+#arrow_down:hover {
   width: 105px;
   height: 58px;
 
@@ -80,37 +80,56 @@ header {
   background-size: cover;
 }
 
-#arrowpath:hover {
-  background-image: url(images/arrow_down2.svg);
-}
-
 .intro1 {
   background-color: black;
 }
 
 
 .why {
-  display: grid;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
 
   height: 100vh;
-  margin-right: 10vw;
-  margin-left: 10vw;
 
   text-align: center;
-  text-align: left;
 
   color: white;
 
   font-family: MagistralC-Bold;
   font-size: 450%;
 
-  align-items: center;;
+  justify-content: center;
+  align-items: center;
+}
+
+#arrow_down2 {
+  position: absolute;
+  bottom: 10px;
+
+  width: 73px;
+  height: 55px;
+
+  background-image: url('../images/arrow_down.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#arrow_down2:hover {
+  width: 105px;
+  height: 58px;
+
+  background-image: url('../images/arrow_down3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .because {
   display: grid;
 
-  height: 60vh;
+  height: 100vh;
   margin-right: 10vw;
   margin-left: 10vw;
 

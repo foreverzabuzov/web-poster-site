@@ -9,4 +9,5 @@
 
 $(window).scroll(function(){
     $(".arrow_down").css("opacity", 1 - $(window).scrollTop() / 760);
+    $(".arrow_down2").css("opacity", 2 - $(window).scrollTop() / 1000);
   });
