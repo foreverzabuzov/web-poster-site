@@ -127,25 +127,24 @@ header {
 }
 
 .because {
-  display: grid;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
 
   height: 100vh;
-  margin-right: 10vw;
-  margin-left: 10vw;
 
   text-align: center;
-  text-align: left;
 
   color: white;
 
-  font-size: 350%;
+  font-family: MagistralC-Bold;
+  font-size: 450%;
 
+  justify-content: center;
   align-items: center;
 }
 
-.because h1 {
-  font-size: 150%;
-}
 
 .intro {
   background-color: #040048;
