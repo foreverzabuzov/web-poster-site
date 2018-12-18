@@ -1,10 +1,10 @@
 $(function () {
   count = 0;
-  wordsArray = ["Beta", "Gamma", "Delta", "Alpha"];
+  wordsArray = ["боль", "страдание", "страх", "тоска", "отвращение", "грусть", "сил нет", "время летит", "апатия", "усталость", "отвращение", "страдание", "напряжение", "нервозность", "бесполезность", "заторможенность"];
   setInterval(function () {
     count++;
-    $("#word").fadeOut(400, function () {
-      $(this).text(wordsArray[count % wordsArray.length]).fadeIn(400);
+    $("#word").fadeOut(800, function () {
+      $(this).text(wordsArray[count % wordsArray.length]).fadeIn(800);
     });
-  }, 2000);
+  }, 3000);
 });

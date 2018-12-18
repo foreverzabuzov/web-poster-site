@@ -16,6 +16,14 @@
   src: url(MagistralC-Bold.ttf);
 }
 
+#word {
+  display: flex;
+
+  text-align: left;
+
+  font-size: 450%;
+}
+
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -30,46 +38,30 @@ h1 {
   font-family: 'MagistralC', cursive;
 }
 
+
+
 body {
-  background-color: #040048;
+  background-color: black;
 }
 
 header {
   display: flex;
 
   height: 80vh;
+  margin-left: 10vw;
 
   color: white;
 
   font-family: 'MagistralC', cursive;
 
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
-header p {
-  display: grid;
-
-  text-align: center;
-
-  font-size: 300%;
+.intro1 {
+  background-color: black;
 }
 
-.brain-cloud {
-  display: flex;
-
-  width: 140%;
-  height: 160vh;
-  margin-top: 30vh;
-
-  color: white;
-
-  font-family: 'MagistralC', cursive;
-  font-size: 200%;
-
-  justify-content: center;
-  align-items: center;
-}
 
 .why {
   display: grid;
@@ -110,16 +102,19 @@ header p {
   font-size: 150%;
 }
 
+.intro {
+  background-color: #040048;
+}
+
 .titan_pic {
   display: grid;
 
-  height: 90vh;
+  height: 100vh;
   margin-top: 10vh;
-  margin-bottom: 10vh;
 
   text-align: center;
 
-  background-image: url(..//images/titan.png);
+  background-image: url(..//images/titan1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 130%;
@@ -281,7 +276,6 @@ header p {
   text-align: center;
 
   color: white;
-  background-color: #040048;
 
   font-family: 'Prosto One', cursive;
   font-size: 90%;
