@@ -8,8 +8,13 @@
 @import "sections/more-info.css";
 @import "footer.css";
 @import "fonts.css";
-@import url('https://fonts.googleapis.com/css?family=Prosto+One&subset=cyrillic');
 
+
+@font-face {
+  font-family: MagistralC;
+
+  src: url(MagistralC-Bold.ttf);
+}
 
 
 * {
@@ -17,8 +22,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a, p, h1, h2 {
-  font-family: 'Prosto One', cursive;
+a, p, h2 {
+  font-family: 'MagistralC';
+}
+
+h1 {
+  font-family: 'MagistralC', cursive;
 }
 
 body {
@@ -32,7 +41,7 @@ header {
 
   color: white;
 
-  font-family: 'Prosto One', cursive;
+  font-family: 'MagistralC', cursive;
 
   justify-content: center;
   align-items: center;
@@ -49,13 +58,13 @@ header p {
 .brain-cloud {
   display: flex;
 
-  width: 80%;
+  width: 140%;
   height: 160vh;
   margin-top: 30vh;
 
   color: white;
 
-  font-family: 'Prosto One', cursive;
+  font-family: 'MagistralC', cursive;
   font-size: 200%;
 
   justify-content: center;
@@ -74,6 +83,7 @@ header p {
 
   color: white;
 
+  font-family: MagistralC-Bold;
   font-size: 450%;
 
   align-items: center;;
@@ -230,7 +240,7 @@ header p {
 
   grid-column: 1/2;
   grid-row: 1/2;
-  justify-self: left;
+  justify-self: center;
 }
 
 .reason_2_logo {
@@ -399,6 +409,7 @@ footer {
   display: flex;
 
   height: 20vh;
+  margin-top: 3vh;
 
   text-align: center;
 
@@ -451,7 +462,7 @@ footer {
   align-content: center:
 }
 
-@media (min-width=1024px) {
+@media (min-width=950px) {
   .titan_pic {
     background-size: cover;
   }

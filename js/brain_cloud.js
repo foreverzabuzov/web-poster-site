@@ -5,7 +5,7 @@ var words = [
   {text: "грусть", weight: 8},
   {text: "сил нет", weight: 6.2},
   {text: "время летит", weight: 15},
-  {text: "разлад", weight: 4},
+  {text: "разлаженность", weight: 4},
   {text: "бессмысленность", weight: 7},
   {text: "впечатлений нет", weight: 7},
   {text: "апатия", weight: 7},
@@ -22,11 +22,6 @@ var words = [
 
 $(document).ready(function() {
   $('.brain-cloud').jQCloud(words,{height: 800, width: 768,
-  shape: 'circular'
-});
-});
-
-$(document).ready(function() {
-  $('.brain-cloud').jQCloud(words,{autoResize: true
-});
+    shape: 'rectangle'
+  });
 });
