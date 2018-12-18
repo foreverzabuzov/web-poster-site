@@ -46,16 +46,41 @@ body {
 
 header {
   display: flex;
+  flex-direction: column;
 
-  height: 80vh;
-  margin-left: 10vw;
+  height: 100vh;
 
   color: white;
 
   font-family: 'MagistralC', cursive;
 
-  justify-content: left;
+  justify-content: center;
   align-items: center;
+}
+
+.arrow_down {
+  position: absolute;
+  bottom: 2.5em;
+
+  width: 93px;
+  height: 50px;
+
+  background-image: url('../images/arrow_down.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.arrow_down:hover {
+  width: 96px;
+  height: 53px;
+
+  background-image: url('../images/arrow_down2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#arrowpath:hover {
+  background-image: url(images/arrow_down2.svg);
 }
 
 .intro1 {
@@ -66,7 +91,7 @@ header {
 .why {
   display: grid;
 
-  height: 150vh;
+  height: 100vh;
   margin-right: 10vw;
   margin-left: 10vw;
 
