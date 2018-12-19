@@ -9,13 +9,6 @@
 @import "footer.css";
 @import "fonts.css";
 
-
-@font-face {
-  font-family: MagistralC;
-
-  src: url(MagistralC-Bold.ttf);
-}
-
 #word {
   display: flex;
 
@@ -31,11 +24,13 @@
 }
 
 a, p, h2 {
-  font-family: 'MagistralC';
+  font-family: 'Bender';
+  font-weight: 200;
 }
 
 h1 {
-  font-family: 'MagistralC', cursive;
+  font-family: 'Bender';
+  font-weight: 200;
 }
 
 
@@ -52,7 +47,8 @@ header {
 
   color: white;
 
-  font-family: 'MagistralC', cursive;
+  font-family: 'Bender';
+  font-weight: 200;
 
   justify-content: center;
   align-items: center;
