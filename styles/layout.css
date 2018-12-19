@@ -141,8 +141,30 @@ header {
   font-family: MagistralC-Bold;
   font-size: 450%;
 
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+}
+
+#arrow_down3 {
+  position: absolute;
+  bottom: 60px;
+
+  width: 73px;
+  height: 55px;
+
+  background-image: url('../images/arrow_down.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#arrow_down3:hover {
+  width: 105px;
+  height: 58px;
+
+  background-image: url('../images/arrow_down4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
