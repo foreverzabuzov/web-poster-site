@@ -172,11 +172,49 @@ header {
   background-color: #040048;
 }
 
+.titan {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+
+  justify-content: space-between;
+
+}
+
+.newmind {
+  z-index: 2;
+
+  display: flex;
+
+  justify-content: center;
+}
+
+.newmind img {
+  width: 60%;
+  height: 60%;
+}
+
+.titan_logo {
+  z-index: 2;
+
+  display: flex;
+
+  padding-bottom: 5vh;
+
+  justify-content: center;
+}
+
+.titan_logo img {
+  width: 60%;
+  height: 60%;
+}
+
+
 .titan_pic {
   display: grid;
 
-  height: 100vh;
-  margin-top: 10vh;
+  height: 50vh;
 
   text-align: center;
 
@@ -193,8 +231,7 @@ header {
 .intro_section {
   display: grid;
 
-  height: 600px;
-  margin-top: -50px;
+  height: 100vh;
   margin-right: 10vw;
   margin-left: 10vw;
 
