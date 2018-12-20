@@ -323,7 +323,7 @@ header {
 
   grid-column: 2;
   grid-row: 3;
-  justify-self: center;
+  justify-self: start;
 }
 
 .reason_3_title{
@@ -384,9 +384,10 @@ header {
   height: 100px;
   margin-bottom: 20px;
 
-  background-image: url(..//images/layerness.png);
+  background-image: url(..//images/minds.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
 
   justify-self: center;
   grid-column: 2/3;
