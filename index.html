@@ -46,14 +46,24 @@
     </div>
   </section>
     <main>
-      <div class="intro_section" id="intro_section">
-        <h1> Лучшая эмоциональная клиника в Солнечной системе. </h1>
-        <h1>Теперь с видом на кольца Сатурна.</h1>
+      <section class="intro_section" id="intro_section">
+        <h1 class="intro_section_h1_1"> Лучшая эмоциональная клиника в Солнечной системе. </h1>
+        <h1 class="intro_section_h1_2">Теперь с видом на кольца Сатурна.</h1>
+        <div class="saturn">
+          <img src="images/saturn.png" alt="saturn">
+        </div>
+      </section>
+      <a class="logobreak3" href="#intro_section_text">
+        <img src="images/titan_next_scroll.png" alt="">
+      </a>
+
+      <section class="intro_section_text" id="intro_section_text">
         <p>В соответствии со статьей №42 конституции Суверенной Конфедерации Объединенных Наций Солнечной Системы каждый гражданин, достигший отметки возраста в 100 лет, и чья общая сумма накоплений при этом превышает 100 миллиардов новых долларов, обязуется выполнить операцию по обновлению эмоциональной системы мозга. </p>
 
         <p>На рынке присутствует огромное количество центров, предлагающих свои услуги в этой отрасли. И если вы ещё не согласились на автоопределение в клинику, то постойте. ООО «Новый Разум» предлагает наивысшую категорию медицинского и пост-операционного рекреационного погружения.</p>
 
         <p>Ещё не заинтересованы? Вот несколько причин, по которым клиенты выбирают нас:</p>
+      </section>
       </div>
       <div class="how_section">
         <div class="reason_1_logo"></div>
@@ -92,11 +102,8 @@
           <div class="stars3"></div>
           <h4>Раньше я часто играл в VR-игры, потому что больше ничего не хотелось. Теперь же читаю книги. Спасибо!</h4>
         </div> -->
-        <a class="logobreak2" href="#wanna_try_section">
-          <img src="images/titan_next_scroll.png" alt="">
-        </a>
       </div>
-        <div class="wanna_try_section">
+        <div class="wanna_try_section" id="wanna_try_section">
           <div class="titan_qr">
             <img src="images/titan_qr.png" alt="">
           </div>
@@ -134,6 +141,15 @@
   var rellax = new Rellax('.newmind', {
     speed: 0,
     center: false,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+  });
+
+  var rellax = new Rellax('.saturn', {
+    speed: 3,
+    center: true,
     wrapper: null,
     round: true,
     vertical: true,
