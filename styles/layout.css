@@ -14,7 +14,7 @@
 
   text-align: left;
 
-  font-size: 4em;
+  font-size: 5em;
   font-weight: bold;
 }
 
@@ -99,15 +99,19 @@ header {
 
   height: 100vh;
 
-  text-align: center;
+  text-align: left;
 
   color: white;
 
   font-family: MagistralC-Bold;
-  font-size: 450%;
+  font-size: 3.6em;
 
   justify-content: center;
   align-items: center;
+}
+
+.why h1 {
+  width: 5em;
 }
 
 #arrow_down2 {
@@ -140,15 +144,19 @@ header {
 
   height: 100vh;
 
-  text-align: center;
+  text-align: left;
 
   color: white;
 
-  font-family: MagistralC-Bold;
-  font-size: 450%;
+  font-size: 3.6em;
 
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+}
+
+.because h1{
+  width: 7em;
+  margin-bottom: 1em;
 }
 
 #arrow_down3 {
@@ -274,11 +282,11 @@ header {
 
   color: white;
 
-  font-size: 90%;
+  font-size: 1.2rem;
 
   grid-column-gap: 42px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 4em 6em 9em 4em 4em 6em 9em;
+  grid-template-rows: 4em 8em 9em 4em 4em 8em 9em;
   align-items: center;
 }
 
@@ -306,7 +314,7 @@ header {
   grid-column: 2;
 }
 .reason_1_description {
-  width: 190px;
+  width: 13em;
 
   text-align: left;
 
@@ -319,7 +327,7 @@ header {
 
 
 .reason_2_description {
-  width: 190px;
+  width: 13em;
 
   text-align: left;
 
@@ -336,7 +344,7 @@ header {
   grid-row: 6;
 }
 .reason_3_description {
-  width: 190px;
+  width: 14em;
 
   text-align: left;
 
@@ -355,7 +363,7 @@ header {
   grid-row: 6;
 }
 .reason_4_description {
-  width: 190px;
+  width: 13em;
 
   text-align: left;
 
