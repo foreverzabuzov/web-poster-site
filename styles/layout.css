@@ -14,7 +14,8 @@
 
   text-align: left;
 
-  font-size: 450%;
+  font-size: 4em;
+  font-weight: bold;
 }
 
 html {
@@ -312,6 +313,7 @@ header {
   grid-row: 3/3;
   grid-column: 1;
   justify-self: center;
+  align-self: flex-start;
 }
 
 
@@ -323,7 +325,8 @@ header {
 
   grid-column: 2;
   grid-row: 3;
-  justify-self: start;
+  justify-self: center;
+  align-self: flex-start;
 }
 
 .reason_3_title{
@@ -341,6 +344,7 @@ header {
   grid-row: 7;
   grid-column: 1;
   justify-self: center;
+  align-self: flex-start;
 }
 
 
@@ -359,6 +363,7 @@ header {
   grid-row: 7;
   grid-column: 2;
   justify-self: center;
+  align-self: flex-start;
 }
 
 
@@ -399,7 +404,7 @@ header {
   height: 100px;
   margin-bottom: 20px;
 
-  background-image: url(..//images/layerness.png);
+  background-image: url(..//images/arrow.png);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -551,19 +556,16 @@ header {
 }
 
 .wanna_try_section {
-  display: grid;
+  display: flex;
+  flex-direction: column;
 
-  height: 50vh;
-  margin-top: 20vh;
+  height: 100vh;
 
   text-align: center;
 
-  background-image: url(http://i.huffpost.com/gen/1429017/images/o-TITAN-LAKES-facebook.jpg);
-  background-size: cover;
-
   font-size: 300%;
 
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 
 }
@@ -606,21 +608,36 @@ footer {
 .wanna_try_button {
   display: flex;
 
-  width: 30vw;
+  width: 10em;
   height: 10vh;
 
   text-decoration: none;
 
   color: white;
-  border: 2px solid #ffffff;
-  border-radius: 6px;
+  border: 3px solid #ffffff;
+  border-radius: 9px;
   background: transparent;
 
   font-size: 32px;
 
   align-items: center;
   justify-content: center;
-  align-content: center:
+  align-content: center;
+}
+
+
+.wanna_try_button:hover {
+  color: #64FC00;
+  border-color: #64FC00;
+  box-shadow: #64FC00;
+}
+
+.titan_qr {
+  width: 10em;
+}
+
+.titan_qr img {
+  width: 60vw;
 }
 
 @media (min-width=950px) {
