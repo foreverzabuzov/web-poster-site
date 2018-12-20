@@ -293,7 +293,7 @@ header {
 .logobreak5 img {
   width: 7%;
   height: 7%;
-  margin-top: -12em;
+  margin-top: 5em;
   margin-bottom: -1em;
 }
 
@@ -490,8 +490,8 @@ header {
 
 
 .reason_1_logo {
-  width: 100px;
-  height: 100px;
+  width: 7em;
+  height: 7em;
 
   background-image: url(..//images/layerness.png);
   background-repeat: no-repeat;
@@ -503,8 +503,8 @@ header {
 }
 
 .reason_2_logo {
-  width: 100px;
-  height: 100px;
+  width: 7em;
+  height: 7em;
 
   background-image: url(..//images/minds.png);
   background-repeat: no-repeat;
@@ -517,8 +517,8 @@ header {
 }
 
 .reason_3_logo {
-  width: 100px;
-  height: 100px;
+  width: 7em;
+  height: 7em;
 
   background-image: url(..//images/arrow.png);
   background-repeat: no-repeat;
@@ -530,10 +530,10 @@ header {
 }
 
 .reason_4_logo {
-  width: 100px;
-  height: 100px;
+  width: 7em;
+  height: 7em;
 
-  background-image: url(..//images/layerness.png);
+  background-image: url(..//images/exclusive.png);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -575,13 +575,26 @@ header {
   align-items: center;
 }
 
+.reviews {
+  z-index: 199999;
 
+  display: flex;
+
+  height: 20vh;
+
+  color: white;
+
+  font-size: 3em;
+
+  justify-content: center;
+  align-items: baseline;
+}
 
 
 .feedback_section {
   display: grid;
 
-  height: 100vh;
+  height: 80vh;
   margin-right: 5em;
   margin-left: 5em;
 
@@ -589,28 +602,31 @@ header {
 
   color: white;
 
-  font-size: 1.2em;
+  font-size: 1.15em;
   line-height: 1.3em;
 
-  grid-column-gap: 1.2em;
+  grid-column-gap: 5em;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.7fr 1fr;
+  grid-template-rows: 1.5fr 1fr;
   align-items: center;
 }
 
 .feedback_section h3 {
+  margin-top: 1em;
   margin-bottom: 2vh;
+
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
 .feedback_section h4 {
-  width: 14em;
   margin-top: 2em;
 
   text-align: left;
 
   color: white;
 
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 1.3em;
 }
 
@@ -631,7 +647,7 @@ header {
 }
 
 
-.review1_pic, .review2_pic, .review3_pic {
+.review1_pic, .review2_pic, .review3_pic, .review4_pic {
   width:8em;
   height:8em;
   margin-bottom: 3vh;
@@ -686,6 +702,12 @@ header {
 
 .review3_pic {
   background-image: url(..//images/zhaba3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.review4_pic {
+  background-image: url(..//images/zhaba4.png);
   background-position: center;
   background-size: cover;
 }
