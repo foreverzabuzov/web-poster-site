@@ -1041,9 +1041,6 @@ justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 3em 5em 9em 5em;
   }
-  /* .reason_1_logo, .reason_2_logo, .reason_3_logo, .reason_4_logo, .reason_1_title, .reason_2_title, .reason_3_title, .reason_4_title, .reason_1_description, .reason_4_description, .reason_2_description {
-    grid-row: 1;
-  } */
 
   .reason_2_logo {
     grid-row: 1;
@@ -1109,5 +1106,66 @@ justify-content: center;
   }
   .wanna_try_button {
     margin-top: -5em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .titan_pic {
+    background-size: 30%;
+  }
+
+  .newmind img {
+    width: 30%;
+  }
+  .saturn img {
+    width: 40vw;
+  }
+
+  .intro_section {
+    height: 100vh;
+
+    font-size: 1.2em;
+  }
+
+  .intro_section_h1_1 {
+    margin-top: -0.2em;
+
+    font-size: 1.2em;
+  }
+  .intro_section_h1_2 {
+    font-size: 1.2em;
+  }
+  .intro_section_text {
+    margin-top: 15em;
+    padding-top: -1em;
+
+    font-size: 0.9em;
+
+    justify-content: flex-start;
+  }
+  .how_section {
+    height: 100vh;
+  }
+
+  .feedback_section {
+    height: 100vh;
+
+    font-size: 0.5em;
+
+    grid-template-rows: 1fr;
+  }
+  .reviews {
+    font-size: 2em;
+  }
+
+  .review1, .review2, .review3, .review4 {
+    margin-top: 5em;
+  }
+
+  .logobreak5 img {
+    margin-top: -10em;
+  }
+  .logo2 {
+    width: 20%;
   }
 }
