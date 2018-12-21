@@ -840,6 +840,8 @@ justify-content: center;
   }
 
   .logobreak3 img, .logobreak4 img, .logobreak5 img, .logobreak2 img, .logobreak img {
+    z-index: 99999999;
+
     width: 8em;
     margin-top: -25em;
   }
@@ -848,5 +850,45 @@ justify-content: center;
     font-size: 2rem;
 
     justify-content: end;
+  }
+
+  .how_section {
+    height: 190vh;
+    margin-left: 0;
+
+    font-size: 2em;
+
+    grid-template-rows: 4em 4em 9em 2em 4em 4em 9em 2em 4em 4em 9em 2em 4em 4em 9em 2em 4em 4em 9em 2em 4em 4em 9em 2em 4em 9em 2em 4em 4em 9em;
+    grid-template-columns: 100vw;
+  }
+
+  .how_section h2 {
+    margin-top: 0;
+  }
+
+  .reason_1_logo, .reason_2_logo, .reason_3_logo, .reason_4_logo, .reason_1_title, .reason_2_title, .reason_3_title, .reason_4_title, .reason_1_description, .reason_4_description, .reason_2_description {
+    grid-column: 1;
+  }
+
+  .reason_2_logo {
+    grid-row: 9;
+  }
+
+  .reason_2_description {
+    grid-row: 11;
+  }
+
+  .reason_2_title {
+    grid-row: 10;
+  }
+  .reason_4_logo {
+    grid-row: 13;
+  }
+
+  .reason_4_title {
+    grid-row: 14;
+  }
+  .reason_4_description {
+    grid-row: 15;
   }
 }
