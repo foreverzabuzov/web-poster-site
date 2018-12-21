@@ -807,12 +807,6 @@ width: 10em;
 width: 60vw;
 }
 
-@media (min-width=950px) {
-.titan_pic {
-  background-size: cover;
-}
-}
-
 .logo {
 display: flex;
 
@@ -905,7 +899,7 @@ width: 30%;
 }
 
 .logobreak {
-  margin-top: 3em;
+  margin-top: 7em;
 }
 
 .feedback_section {
@@ -954,7 +948,7 @@ grid-gap: 1em;
 
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 950px) {
 .titan_pic {
   background-size: 40%;
 }
@@ -1029,8 +1023,9 @@ grid-gap: 1em;
 }
 
 .how_section {
-  height: 80vh;
-  margin-top: 10vh;
+  height: 800vh;
+  margin-top: 15em;
+  margin-bottom: -10em;
 
   font-size: 0.7em;
 
@@ -1141,6 +1136,7 @@ grid-gap: 1em;
 }
 .how_section {
   height: 100vh;
+  margin-top: 15em;
 }
 
 .feedback_section {
