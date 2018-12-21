@@ -684,6 +684,10 @@ header {
   background-size: contain;
 }
 
+.pushme {
+  display: none;
+}
+
 .review1 {
   grid-column: 1;
   grid-row: 1;
@@ -927,8 +931,6 @@ justify-content: center;
     font-size: 1.8em;
   }
 
-
-
   .review2 {
     grid-row: 2;
   }
@@ -958,13 +960,75 @@ justify-content: center;
 
 @media screen and (min-width: 900px) {
   .titan_pic {
-    background-size: 45%;
+    background-size: 40%;
   }
 
   .intro_section {
-    margin-top: 14em;
+    height: 120vh;
+    margin-top: 10em;
+
+    align-items: baseline;
+  }
+  .intro_section_text {
+    margin-top: 1em;
+    padding-top: -5em;
+
+    font-size: 1.1em;
   }
   .newmind img {
     width: 40%;
+  }
+  .saturn img {
+    width: 40vw;
+  }
+  .intro_section_h1_1 {
+    margin-top: 0.5em;
+
+    font-size: 1.7em;
+  }
+  .intro_section_h1_2 {
+    font-size: 1.7em;
+  }
+  .logobreak3 {
+    z-index: 123123123123123;
+
+    margin-top: -14em;
+    margin-right: 4em;
+
+    text-decoration: none;
+
+    justify-content: flex-end;
+    align-items: end;
+  }
+  .logobreak3 img {
+    z-index: 21312312312312312;
+
+    margin-top: -0.2em;
+  }
+
+  .logobreak4 {
+    margin-top: -6em;
+  }
+
+  .logobreak4 img {
+    z-index: 21312312312312312;
+
+    margin-top: -0.2em;
+  }
+  .pushme {
+    z-index: 1293012930912030123;
+
+    display: flex;
+
+    width: 10em;
+    margin-top: 1em;
+    margin-left: 1em;
+
+    word-spacing: 0.3em;
+
+    color: white;
+
+    font-weight: bold;
+
   }
 }
