@@ -959,6 +959,9 @@ justify-content: center;
   .wanna_try_button {
     width: 7.5em;
   }
+  .intro_section_text {
+    font-size: 2em;
+  }
 
 }
 

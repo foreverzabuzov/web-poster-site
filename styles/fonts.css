@@ -6,25 +6,25 @@
 @import url("//hello.myfonts.net/count/384dfc");
 
 
-@font-face {font-family: 'Bender';font-weight: normal;font-style: normal;src: url('webfonts/384DFC_0_0.eot');src: url('webfonts/384DFC_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/384DFC_0_0.woff2') format('woff2'),url('webfonts/384DFC_0_0.woff') format('woff'),url('webfonts/384DFC_0_0.ttf') format('truetype');}
+@font-face {font-family: 'Bender';font-weight: normal;font-style: normal;src: url('..//fonts/webfonts/384DFC_0_0.eot');src: url('..//fonts/webfonts/384DFC_0_0.eot?#iefix') format('embedded-opentype'),url('..//fonts/webfonts/384DFC_0_0.woff2') format('woff2'),url('..//fonts/webfonts/384DFC_0_0.woff') format('woff'),url('..//fonts/webfonts/384DFC_0_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'Bender-Italic';src: url('webfonts/384DFC_1_0.eot');src: url('webfonts/384DFC_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/384DFC_1_0.woff2') format('woff2'),url('webfonts/384DFC_1_0.woff') format('woff'),url('webfonts/384DFC_1_0.ttf') format('truetype');}
+@font-face {font-family: 'Bender-Italic';src: url('..//fonts/webfonts/384DFC_1_0.eot');src: url('..//fonts/webfonts/384DFC_1_0.eot?#iefix') format('embedded-opentype'),url('..//fonts/webfonts/384DFC_1_0.woff2') format('woff2'),url('..//fonts/webfonts/384DFC_1_0.woff') format('woff'),url('..//fonts/webfonts/384DFC_1_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'Bender';font-weight: normal;font-style: italic;src: url('webfonts/384DFC_2_0.eot');src: url('webfonts/384DFC_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/384DFC_2_0.woff2') format('woff2'),url('webfonts/384DFC_2_0.woff') format('woff'),url('webfonts/384DFC_2_0.ttf') format('truetype');}
+@font-face {font-family: 'Bender';font-weight: normal;font-style: italic;src: url('..//fonts/webfonts/384DFC_2_0.eot');src: url('..//fonts/webfonts/384DFC_2_0.eot?#iefix') format('embedded-opentype'),url('..//fonts/webfonts/384DFC_2_0.woff2') format('woff2'),url('..//fonts/webfonts/384DFC_2_0.woff') format('woff'),url('..//fonts/webfonts/384DFC_2_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'Bender';font-weight: bold;font-style: normal;src: url('webfonts/384DFC_3_0.eot');src: url('webfonts/384DFC_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/384DFC_3_0.woff2') format('woff2'),url('webfonts/384DFC_3_0.woff') format('woff'),url('webfonts/384DFC_3_0.ttf') format('truetype');}
+@font-face {font-family: 'Bender';font-weight: bold;font-style: normal;src: url('..//fonts/webfonts/384DFC_3_0.eot');src: url('..//fonts/webfonts/384DFC_3_0.eot?#iefix') format('embedded-opentype'),url('..//fonts/webfonts/384DFC_3_0.woff2') format('woff2'),url('..//fonts/webfonts/384DFC_3_0.woff') format('woff'),url('..//fonts/webfonts/384DFC_3_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'Bender';src: url('webfonts/384DFC_4_0.eot');src: url('webfonts/384DFC_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/384DFC_4_0.woff2') format('woff2'),url('webfonts/384DFC_4_0.woff') format('woff'),url('webfonts/384DFC_4_0.ttf') format('truetype');}
+@font-face {font-family: 'Bender';src: url('..//fonts/webfonts/384DFC_4_0.eot');src: url('..//fonts/webfonts/384DFC_4_0.eot?#iefix') format('embedded-opentype'),url('..//fonts/webfonts/384DFC_4_0.woff2') format('woff2'),url('..//fonts/webfonts/384DFC_4_0.woff') format('woff'),url('..//fonts/webfonts/384DFC_4_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'Bender-Black';src: url('webfonts/384DFC_5_0.eot');src: url('webfonts/384DFC_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/384DFC_5_0.woff2') format('woff2'),url('webfonts/384DFC_5_0.woff') format('woff'),url('webfonts/384DFC_5_0.ttf') format('truetype');}
+@font-face {font-family: 'Bender-Black';src: url('..//fonts/webfonts/384DFC_5_0.eot');src: url('..//fonts/webfonts/384DFC_5_0.eot?#iefix') format('embedded-opentype'),url('..//fonts/webfonts/384DFC_5_0.woff2') format('woff2'),url('..//fonts/webfonts/384DFC_5_0.woff') format('woff'),url('..//fonts/webfonts/384DFC_5_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'Bender';font-weight: bold;font-style: italic;src: url('webfonts/384DFC_6_0.eot');src: url('webfonts/384DFC_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/384DFC_6_0.woff2') format('woff2'),url('webfonts/384DFC_6_0.woff') format('woff'),url('webfonts/384DFC_6_0.ttf') format('truetype');}
+@font-face {font-family: 'Bender';font-weight: bold;font-style: italic;src: url('..//fonts/webfonts/384DFC_6_0.eot');src: url('..//fonts/webfonts/384DFC_6_0.eot?#iefix') format('embedded-opentype'),url('..//fonts/webfonts/384DFC_6_0.woff2') format('woff2'),url('..//fonts/webfonts/384DFC_6_0.woff') format('woff'),url('..//fonts/webfonts/384DFC_6_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'Bender-BoldItalic';src: url('webfonts/384DFC_7_0.eot');src: url('webfonts/384DFC_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/384DFC_7_0.woff2') format('woff2'),url('webfonts/384DFC_7_0.woff') format('woff'),url('webfonts/384DFC_7_0.ttf') format('truetype');}
+@font-face {font-family: 'Bender-BoldItalic';src: url('..//fonts/webfonts/384DFC_7_0.eot');src: url('..//fonts/webfonts/384DFC_7_0.eot?#iefix') format('embedded-opentype'),url('..//fonts/webfonts/384DFC_7_0.woff2') format('woff2'),url('..//fonts/webfonts/384DFC_7_0.woff') format('woff'),url('..//fonts/webfonts/384DFC_7_0.ttf') format('truetype');}
