@@ -955,3 +955,16 @@ justify-content: center;
   }
 
 }
+
+@media screen and (min-width: 900px) {
+  .titan_pic {
+    background-size: 45%;
+  }
+
+  .intro_section {
+    margin-top: 14em;
+  }
+  .newmind img {
+    width: 40%;
+  }
+}
