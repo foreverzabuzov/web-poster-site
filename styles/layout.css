@@ -675,6 +675,10 @@ header {
   background-size: contain;
 }
 
+.intro_section_text {
+  font-size: 1.5em;
+}
+
 .stars3 {
   width: 110px;
   height: 40px;
