@@ -982,7 +982,7 @@ justify-content: center;
     width: 40vw;
   }
   .intro_section_h1_1 {
-    margin-top: 0.5em;
+    margin-top: -0.4em;
 
     font-size: 1.7em;
   }
@@ -1003,7 +1003,7 @@ justify-content: center;
   .logobreak3 img {
     z-index: 21312312312312312;
 
-    margin-top: -0.2em;
+    margin-top: -0.4em;
   }
 
   .logobreak4 {
@@ -1082,5 +1082,32 @@ justify-content: center;
   .reason_3_logo {
     grid-column: 4;
     grid-row: 1;
+  }
+
+  .feedback_section {
+    height: 100vh;
+
+    font-size: 0.7em;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .review3 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .review4 {
+    grid-column: 4;
+    grid-row: 1;
+  }
+
+  .logobreak5 img {
+    margin-top: -20em;
+  }
+  .wanna_try_section img {
+    width: 40%;
+  }
+  .wanna_try_button {
+    margin-top: -5em;
   }
 }
