@@ -334,6 +334,7 @@ header {
   color: white;
 
   font-size: 1.8em;
+  line-height: 1.3em;
 
   justify-content: center;
   align-items: baseline;
@@ -349,7 +350,7 @@ header {
 
 
 .intro_section_text p{
-  padding-bottom: 3em;
+  padding-bottom: 1em;
 }
 
 
@@ -823,4 +824,29 @@ justify-content: center;
 
 .logo2 {
   width: 30%;
+}
+
+@media screen and (max-width: 400px) {
+  #word {
+    font-size: 6em;
+  }
+
+  .why, .because {
+    font-size: 5.8em;
+  }
+
+  .intro_section_h1_1, .intro_section_h1_2 {
+    font-size: 3em;
+  }
+
+  .logobreak3 img, .logobreak4 img, .logobreak5 img, .logobreak2 img, .logobreak img {
+    width: 8em;
+    margin-top: -25em;
+  }
+
+  .intro_section_text {
+    font-size: 2rem;
+
+    justify-content: end;
+  }
 }
